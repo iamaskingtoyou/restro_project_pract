@@ -1,0 +1,52 @@
+/* navagation bar */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1.4rem;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+/* home section */
+#home {
+
+    height: 315px;
+    padding: 3px 30px;
+}
+
+#home::before {
+    height: 515px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* services section */
+#service {
+    flex-direction: column;
+}
+
+#service .box {
+    padding: 15px;
+    margin: 2px 0px;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 34px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 7px 15px;
+}
